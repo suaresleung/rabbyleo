@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+<style>
+    body{
+        font-family: 宋体;
+    }
+    h1{
+        color:blue;
+        font-size:25px;
+        text-align: center;
+    }
+    p{
+        line-height: 1.5em;
+        text-indent: 2em;
+        font-size:16px;
+    }
+    div{
+        text-align: center;
+        padding:20px;
+    }
+    span{
+        text-decoration: underline;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color:red;
+        font-weight: bold;
+    }
+    table{
+        border-collapse: collapse;
+
+    }
+    th{
+        border: 1px solid black;
+    }
+    td{
+        width:140px;
+        text-align: center;
+        border: 1px solid black;
+
+    }
+     #best{
+        background-color: red;
+    }
+
+</style>
+</head>
+<body>
+<h1>巴萨和中超抢购当红射手 河北华夏报1500万欧</h1>
+<p>　新浪体育讯　<b>　据周四出版的《世界体育报》报道，29岁的塞维利亚前锋加梅罗已经成为了巴萨锋线引援的首选，红蓝军团希望引进一名有西甲比赛经验的前锋，加梅罗是理想的人选。</b>不过按照此前《马卡报》的说法，中超升班马河北华夏幸福也盯上了加梅罗，这样，在转会市场上，中超球队将直接与西甲豪门竞争。</p>
+<p>  2007年土伦杯，当届杯赛加梅罗攻入四球，首球出现在半决赛同葡萄牙的比赛中，也是全场唯一进球，而之后更是在同中国队进行的决赛中完成帽子戏法助法国本土捧杯，<span>表现突出的加梅罗也荣膺当届杯赛最佳球员称号</span>。2013年，塞维利亚俱乐部从巴黎圣日耳曼引进加梅罗，上赛季他为塞维利亚打入17球，本赛季还未结束，已经打入了21球，加梅罗的出色表现也引发了豪门的兴趣,巴萨技术部门指出，作为一名身高1米70的前锋，<a href="http://baike.baidu.com/link?url=FbvC2IIUmYCVNXrmePxPFZjkc9NhS1lSSuR5Sid4_EVTdZxe739AhOKpscJyRw_wRUq3zd1IEjlXha1pfDLKU6dWtSXlA9rt0sh2kJkBgJ4WOHJtq4k57_hqwZURBGSES3VZ97i-MSseUZV8PZ-x2a" target="_blank">加梅罗</a>启动非常迅速，有一定小范围摆脱防守的能力，无球跑动堪称目前法国所有前锋中最强，位置感非常出色.</p>
+<div>
+    <img src="http://k.sinaimg.cn/n/sports/transform/20160324/BeZ_-fxqswxk9573127.jpg/w570901.jpg" />
+</div>
+<ul>
+    <li>aaa</li>
+    <li>bbb</li>
+    <li>ccc</li>
+</ul>
+<ol>
+    <li>aaa</li>
+    <li>bbb</li>
+    <li>ccc</li>
+</ol>
+<table>
+        <tr>
+            <th>班级</th>
+            <th>学生数</th>
+            <th>平均成绩</th>
+        </tr>
+        <tr>
+            <td>一班</td>
+            <td>30</td>
+            <td id="best">89</td>
+        </tr>
+        <tr>
+            <td>二班</td>
+            <td>32</td>
+            <td>85</td>
+        </tr>
+</table>
+    <input type="text" />我是输入框
+    <br />
+    <input type="button" />我是按钮
+
+</body>
+</html>
