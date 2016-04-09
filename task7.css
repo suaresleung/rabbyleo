@@ -1,0 +1,528 @@
+*{
+    padding:0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #eef3fa;
+}
+.wrapper{
+    min-width:1280px;
+    margin:0 auto;
+    overflow: hidden;
+}
+nav{
+    padding:0 20px 0 40px;
+    height:50px;
+    background: #FFFFFF;
+    line-height:55px;
+}
+nav h1{
+    background: url("image/1.png") no-repeat left center ;
+    padding-left: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    float: left;
+}
+nav #nav-list{
+    list-style: none;
+    float: right;
+    height: 55px;
+}
+nav #nav-list li{
+    float: left;
+    padding:0 25px;
+}
+nav #nav-list .active a,
+nav #nav-list .login a{
+    color:#e7504d;
+}
+nav #nav-list li a{
+    font-size: 15px;
+    color: #8E8E8E;
+    font-weight: bold;
+}
+nav #nav-list .active{
+    border-bottom: 2px solid #cc1b1b;
+    color:#e7504d;
+    margin-top: -3px ;
+    padding: -1px;
+}
+nav #nav-list .login{
+    background: url("image/2.png") no-repeat right center;
+    padding-right:20px;
+}
+.banner .intro{
+    width:100%;
+    padding:200px 115px;
+    color: #FFFFFF;
+    background: url("image/3.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+.banner .intro h2{
+    color: #FFFFFF;
+    font-size: 50px;
+    padding:20px 5px;
+}
+.banner .intro button{
+    border:none;
+    outline:none;
+    padding: 15px 100px;
+    background-color: #e7504d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 15px 0;
+}
+.show{
+    background-color: #FFFFFF;
+    margin:0 -2px;
+    padding-bottom: 60px;
+}
+.show:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.show li{
+    list-style: none;
+    float:left;
+    width:25%;
+    text-align: center;
+}
+.show li img{
+    margin:45px auto;
+}
+.show li p{
+    padding: 5px 15px;
+    line-height: 25px;
+    color:#6c6c6c;
+    border-right:1px solid #aaaaaa;
+}
+.section-one{
+    background-color: #ededed;
+    text-align: center;
+    padding: 90px 0 30px;
+}
+.section-one p{
+    color: #9e9e9e;
+    font-size: 50px;
+    padding: 50px;
+}
+.section-two{
+    background: url("image/4.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    padding: 50px 0 150px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section-two h2{
+    margin-bottom: 20px;
+}
+.section-two ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.section-two li{
+    list-style: none;
+    margin-top: 30px;
+    float:left;
+    width: 25%;
+}
+.section-two li input{
+    width:80%;
+    line-height: 35px;
+    font-size: 15px;
+    padding-left: 5px;
+    background: url("image/email.png") no-repeat right center #FFFFFF;
+    height:35px;
+    outline-color: #e7504d;
+    border:none;
+}
+.section-two li input::-webkit-calendar-picker-indicator{
+    display: none;
+    -webkit-appearance: none;
+}
+.section-two li .search{
+    text-align: center;
+    background: #e7504d;
+    color: #FFFFFF;
+    padding-left: 2em;
+    letter-spacing: 2em;
+    font-weight: bold;
+}
+.section-three{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+.section-three:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.section-three .pic{
+    width:80%;
+    list-style: none;
+    margin: 0 auto;
+}
+.section-three .pic li{
+    float: left;
+    width:21%;
+    margin:0 2%;
+    text-align: center;
+}
+.pic li img{
+    margin:10px auto;
+    padding: 10px 8px;
+    box-shadow: 0 0 20px #eee;
+    border:1px solid #e1e1e1;
+    width:100%;
+}
+.pic li h3{
+    color: #3a3a3a;
+}
+.pic li p{
+    color: #919191;
+    font-size: 12px;
+}
+.section-four:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.section-four .four-left{
+    float: left;
+    width:66%;
+    height: 550px;
+    background: url("image/5.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+.section-four .four-right{
+    position: relative;
+    float: left;
+    height: 550px;
+    width: 34%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.section-four .content-list{
+    list-style: none;
+    height: inherit;
+    width: 300%;
+}
+.section-four .content-list:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.section-four .content-list li{
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    height: inherit;
+    padding: 160px 0;
+}
+.section-four .content-list li p{
+    font-size: 15px;
+    color: #c3c3c3;
+    height: 50%;
+    padding: 10px 70px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 25px;
+    margin:15px auto;
+}
+.section-four .content-list li span{
+    color: #e74f4d;
+    font-weight: bold;
+}
+.section-four .index-list{
+    width:34%;
+    list-style: none;
+    position: absolute;
+    left:32%;
+    bottom:50px;
+}
+.section-four .index-list li {
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    height: 10px;
+}
+.section-four .index-list li i{
+    display: inline-block;
+    border:1px solid #cecece;
+    height: 10px;
+    width:10px;
+    border-radius: 50%;
+}
+.section-four .on i{
+    background-color: #cecece;
+}
+.section-five{
+    background-color: #FFFFFF;
+}
+.section-five:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.section-five li {
+    list-style: none;
+    float: left;
+    width:30%;
+    height: 150px;
+    text-align: center;
+    padding: 170px 0 200px;
+    overflow: hidden;
+}
+.section-five li p{
+    font-size: 25px;
+    line-height: 32px;
+}
+.section-five li:last-child{
+    width: 34%;
+    background: url("image/6.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 48px;
+}
+.red-bg{
+    background-color: #e7504d;
+    color:#fff;
+}
+.btn-more{
+    margin-top: 10px;
+    padding:10px 30px;
+    font-size: 25px;
+    border:1px solid #e7504d;
+    color: #e7504d;
+    background-color: #FFFFFF;
+}
+.btn-more .ren-btn{
+    color: #FFFFFF;
+    border:1px solid #FFFFFF;
+    background-color: #e7504d;
+}
+.section-six{
+    background-color: #FFFFFF;
+}
+.section-six:after{
+    padding-bottom: 100px;
+    content: "";
+    clear: both;
+    display: block;
+}
+.section-six .header{
+    padding: 100px 0;
+    text-align: center;
+}
+.section-six .header h2 span{
+    color: #e7504d;
+    font-weight: bolder;
+}
+.section-six .header p{
+    display: inline-block;
+    width: 40%;
+}
+.section-six .left{
+    margin-left: 10%;
+    width: 25%;
+    float: left;
+}
+.section-six .left ul{
+    list-style: none;
+}
+.section-six .left ul li{
+    color: #8E8E8E;
+    padding: 10px;
+}
+.section-six .left li h4{
+    color:#8E8E8E;
+    height:20px;
+    line-height:20px;
+    font-size: 16px;
+}
+.section-six .left li p{
+    padding:5px;
+}
+.section-six .left li a{
+    color: #cccccc;
+    cursor: pointer;
+    padding:5px 11px;
+    display: block;
+    text-align: right;
+}
+.section-six .left li .more{
+    display: inline-block;
+    width: 11px;
+    height: 6px;
+    background: url("image/more.png") no-repeat center center;
+}
+.section-six .right{
+    width:55%;
+    float:left;
+}
+.section-six .right table{
+    width: 100%;
+    border: none;
+}
+.section-six table tr{
+    height: 50px;
+    background-color: #ededee;
+}
+.section-six table td{
+    padding-left: 15px;
+}
+.section-six table td input{
+    height:40px;
+    border: none;
+    outline: none;
+    background-color: #ededee;
+}
+.section-six table td textarea{
+    resize: none;
+    box-sizing: border-box;
+    padding-top: 15px;
+    width: 100%;
+    background-color: #ededee;
+    outline: none;
+    border: none;
+}
+.section-six table .submit{
+    width: 100%;
+}
+footer{
+    position: relative;
+    color: #ffffff;
+    padding-top: 90px;
+    text-align: center;
+    background-color: #33363f;
+}
+footer p{
+    margin:10px auto;
+    font-size: 10px;
+    line-height: 25px;
+    width: 60%;
+}
+footer input{
+    margin:20px -5px;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    border:none;
+}
+footer .email{
+    width: 40%;
+    padding-left: 5px;
+}
+footer .submit{
+    color: #717179;
+    width: 80px;
+}
+footer .icons{
+    margin-top: 15px;
+    display: inline-block;
+    list-style: none;
+}
+footer .icons li{
+    color: #FFFFFF;
+    float:left;
+    margin:15px 20px;
+}
+footer .copy{
+    text-align: left;
+    padding:15px 30px;
+    background-color: #303039;
+}
+footer .to-top{
+    display: inline-block;
+    color: #FFFFFF;
+    position: absolute;
+    bottom:15px;
+    right: 30px;
+    cursor: pointer;
+}
+
+@media screen and(max-width: 780px) {
+    .wapper{
+        width: 100%;
+        min-width: 320px;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    nav #nav-list{
+        display: block;
+        float: right;
+        margin-right: 5px;
+        color: #000000;
+    }
+    nav li{
+        display: none;
+    }
+    .banner .intro{
+        text-align: center;
+        padding: 200px 5px;
+    }
+    .banner .intro h2{
+        font-size: 50px;
+    }
+    .banner .intro p{
+        width: 100%;
+        padding:5px;
+        line-height: 30px;
+    }
+    .banner .intro button{
+        border: none;
+        outline: none;
+        padding: 16px;
+    }
+    .section-two {
+        padding-bottom: 50px;
+    }
+    .show li{
+        width: 100%;
+    }
+    .section-three .pic li{
+        width:100%;
+        margin:20px 0;
+    }
+    .section-four .four-left{
+        width: 100%;
+    }
+    .section-four .four-right{
+        position: relative;
+        height: inherit;
+        width: 100%;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    .section-five li{
+        width: 100%;
+    }
+    .section-five li:last-child{
+        width: 100%;
+        background: url("image/6.jpg") no-repeat center center;
+        background-size: 100%;
+    }
+    .section-six .left{
+        margin-left: 0;
+        width: 100%;
+    }
+    .section-six .right{
+        width: 100%;
+    }
+    .section-six .right input{
+        width: 30%;
+    }
+    .section-six table .submit{
+        width: 100%;
+    }
+
+}
